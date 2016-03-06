@@ -1,10 +1,11 @@
 {
   "name": "epoch-times",
   "main": "./lib/epoch-times",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Convert selected text from epoch time to human time (and vice versa).",
   "keywords": [
-    "epoch", "time"
+    "epoch",
+    "time"
   ],
   "activationCommands": {
     "atom-workspace": "epoch-times:translate"
