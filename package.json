@@ -1,0 +1,20 @@
+{
+  "name": "epoch-times",
+  "main": "./lib/epoch-times",
+  "version": "0.0.1",
+  "description": "Convert selected text from epoch time to human time (and vice versa).",
+  "keywords": [
+    "epoch", "time"
+  ],
+  "activationCommands": {
+    "atom-workspace": "epoch-times:translate"
+  },
+  "repository": "https://github.com/joshrickard/epoch-times",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "moment": "2.11.2"
+  }
+}
